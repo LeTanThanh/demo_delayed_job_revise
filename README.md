@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Install gems.
+```
+bundle install
+```
 
-Things you may want to cover:
+- Create tables.
+```
+rails db:migrate
+```
 
-* Ruby version
+- Create seed users.
+```
+rails db:seed
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Start/restart delayed_job with deamons
+```
+bin/delayed_job restart
+```

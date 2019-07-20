@@ -16,6 +16,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "ffaker"
 gem "delayed_job"
 gem "delayed_job_active_record"
+gem "daemons"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
